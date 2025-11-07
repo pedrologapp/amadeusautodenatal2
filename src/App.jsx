@@ -348,7 +348,7 @@ function App() {
           ticketQuantity: ticketQuantity, 
           amount: valorTotal,
           timestamp: new Date().toISOString(),
-          event: 'Amadeus-autonatalmatutino'
+          event: 'Amadeus-autonatalvespertino'
         })
       });
 
@@ -1208,6 +1208,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
