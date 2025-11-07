@@ -73,7 +73,7 @@ function App() {
   const [isSearching, setIsSearching] = useState(false);
 
   // FILTRO FIXO: Turno "Manhã" (não aparece na tela, mas funciona automaticamente)
-  const [selectedTurno, setSelectedTurno] = useState('Manhã'); // ← FIXO EM "MANHÃ"
+  const [selectedTurno, setSelectedTurno] = useState('Tarde'); // ← FIXO EM "MANHÃ"
   const [selectedSerie, setSelectedSerie] = useState(''); // ← Vazio = todas as séries
 
   // Estado para quantidade de ingressos
@@ -432,7 +432,7 @@ function App() {
             Auto de Natal
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            ESTE COMUNICADO É SOMENTE PARA OS ALUNOS DO TURNO MATUTINO.
+            ESTE COMUNICADO É SOMENTE PARA OS ALUNOS DO TURNO VESPERTINO.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -447,7 +447,7 @@ function App() {
           <div className="mt-12 flex justify-center items-center space-x-8 text-sm">
             <div className="flex items-center">
               <Calendar className="h-5 w-5 mr-2" />
-              6 de Dezembro de 2025 - Às 14:00.
+              6 de Dezembro de 2025 - Às 16:00.
             </div>
             <div className="flex items-center">
               <MapPin className="h-5 w-5 mr-2" />
@@ -524,10 +524,10 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-center">
-                  Entrada: 13:30
+                  Entrada: 16:00
                 </p>
                 <p className="text-sm text-center">
-                  Início das apresentações: 14:00
+                  Início das apresentações: 16:30
                 </p>
               </CardContent>
             </Card>
@@ -1208,6 +1208,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
