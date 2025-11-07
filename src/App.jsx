@@ -580,7 +580,7 @@ function App() {
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                 <div>
                   <p className="text-sm">
-                   A confirmação do aluno deve ser feita até 14 de novembro de 2025, diretamente com a professora. 
+                   A confirmação do aluno deve ser feita até 11 de novembro de 2025, diretamente com a professora. 
                   </p>
                 </div>
               </div>  
@@ -1204,6 +1204,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
